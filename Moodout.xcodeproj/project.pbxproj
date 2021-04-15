@@ -10,10 +10,10 @@
 		B91D0138262819E5009EB88B /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91D0137262819E5009EB88B /* Extension.swift */; };
 		B91D013D26281B44009EB88B /* OnboardingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91D013C26281B44009EB88B /* OnboardingSlide.swift */; };
 		B91D014126281FE0009EB88B /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91D014026281FE0009EB88B /* OnboardingCollectionViewCell.swift */; };
+		B91D014826285819009EB88B /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91D014726285819009EB88B /* WelcomeViewController.swift */; };
 		B9497609262814D8003341CC /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9497608262814D8003341CC /* OnboardingViewController.swift */; };
 		B98E2D4B26281120007C2B52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98E2D4A26281120007C2B52 /* AppDelegate.swift */; };
 		B98E2D4D26281120007C2B52 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98E2D4C26281120007C2B52 /* SceneDelegate.swift */; };
-		B98E2D4F26281120007C2B52 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98E2D4E26281120007C2B52 /* ViewController.swift */; };
 		B98E2D5226281120007C2B52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B98E2D5026281120007C2B52 /* Main.storyboard */; };
 		B98E2D5426281121007C2B52 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B98E2D5326281121007C2B52 /* Assets.xcassets */; };
 		B98E2D5726281121007C2B52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B98E2D5526281121007C2B52 /* LaunchScreen.storyboard */; };
@@ -27,11 +27,11 @@
 		B91D0137262819E5009EB88B /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		B91D013C26281B44009EB88B /* OnboardingSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSlide.swift; sourceTree = "<group>"; };
 		B91D014026281FE0009EB88B /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
+		B91D014726285819009EB88B /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		B9497608262814D8003341CC /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		B98E2D4726281120007C2B52 /* Moodout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moodout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B98E2D4A26281120007C2B52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B98E2D4C26281120007C2B52 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B98E2D4E26281120007C2B52 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B98E2D5126281120007C2B52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B98E2D5326281121007C2B52 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B98E2D5626281121007C2B52 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -81,9 +81,9 @@
 		B949760526281458003341CC /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				B98E2D4E26281120007C2B52 /* ViewController.swift */,
 				B9497608262814D8003341CC /* OnboardingViewController.swift */,
 				B91D014026281FE0009EB88B /* OnboardingCollectionViewCell.swift */,
+				B91D014726285819009EB88B /* WelcomeViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -206,12 +206,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B91D0138262819E5009EB88B /* Extension.swift in Sources */,
-				B98E2D4F26281120007C2B52 /* ViewController.swift in Sources */,
 				B98E2D4B26281120007C2B52 /* AppDelegate.swift in Sources */,
 				B98E2D4D26281120007C2B52 /* SceneDelegate.swift in Sources */,
 				B91D013D26281B44009EB88B /* OnboardingSlide.swift in Sources */,
 				B91D014126281FE0009EB88B /* OnboardingCollectionViewCell.swift in Sources */,
 				B9497609262814D8003341CC /* OnboardingViewController.swift in Sources */,
+				B91D014826285819009EB88B /* WelcomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
