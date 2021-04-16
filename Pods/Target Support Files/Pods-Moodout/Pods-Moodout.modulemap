@@ -1,0 +1,6 @@
+framework module Pods_Moodout {
+  umbrella header "Pods-Moodout-umbrella.h"
+
+  export *
+  module * { export * }
+}
