@@ -19,7 +19,6 @@ class SignInViewController: UIViewController {
     }
     
     @IBAction func signInButton(_ sender: Any) {
-        
         if let email = emailTextField.text, let password = passwordTextField.text {
             
             Auth.auth().signIn(withEmail: email, password: password) { authResult, error in
