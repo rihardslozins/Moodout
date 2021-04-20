@@ -21,10 +21,13 @@
 		B98E2D65262813D2007C2B52 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B98E2D61262813D2007C2B52 /* Roboto-Bold.ttf */; };
 		B98E2D66262813D2007C2B52 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B98E2D62262813D2007C2B52 /* Roboto-Thin.ttf */; };
 		B98E2D67262813D2007C2B52 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B98E2D63262813D2007C2B52 /* Roboto-Regular.ttf */; };
+		B9E6A9FB262EFF7D00F3B548 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E6A9FA262EFF7D00F3B548 /* HomeViewController.swift */; };
+		B9E6A9FE262EFF8D00F3B548 /* SpotifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E6A9FD262EFF8D00F3B548 /* SpotifyViewController.swift */; };
+		B9E6AA01262EFF9800F3B548 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E6AA00262EFF9800F3B548 /* MoreViewController.swift */; };
+		B9E6AA07262F09CE00F3B548 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E6AA06262F09CE00F3B548 /* MainTabBarController.swift */; };
 		B9F4CBAA2629690800A7AECF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B9F4CBA92629690800A7AECF /* GoogleService-Info.plist */; };
 		B9FC22A726296FE300AC2309 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FC22A626296FE300AC2309 /* SignInViewController.swift */; };
 		B9FC22AA26296FF100AC2309 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FC22A926296FF100AC2309 /* SignUpViewController.swift */; };
-		B9FC22AD2629759B00AC2309 /* MoodMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FC22AC2629759B00AC2309 /* MoodMenuViewController.swift */; };
 		DB22B31EBE5F8F3C9104B15F /* Pods_Moodout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FE3F5DADBE538BEF5E8823E /* Pods_Moodout.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,10 +49,13 @@
 		B98E2D61262813D2007C2B52 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		B98E2D62262813D2007C2B52 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
 		B98E2D63262813D2007C2B52 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		B9E6A9FA262EFF7D00F3B548 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B9E6A9FD262EFF8D00F3B548 /* SpotifyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyViewController.swift; sourceTree = "<group>"; };
+		B9E6AA00262EFF9800F3B548 /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		B9E6AA06262F09CE00F3B548 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		B9F4CBA92629690800A7AECF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B9FC22A626296FE300AC2309 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		B9FC22A926296FF100AC2309 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
-		B9FC22AC2629759B00AC2309 /* MoodMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodMenuViewController.swift; sourceTree = "<group>"; };
 		DC24887DA91672C1A753DFB1 /* Pods-Moodout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moodout.debug.xcconfig"; path = "Target Support Files/Pods-Moodout/Pods-Moodout.debug.xcconfig"; sourceTree = "<group>"; };
 		FF7BA42981701F225BB9724B /* Pods-Moodout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moodout.release.xcconfig"; path = "Target Support Files/Pods-Moodout/Pods-Moodout.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -116,7 +122,10 @@
 				B91D014726285819009EB88B /* WelcomeViewController.swift */,
 				B9FC22A626296FE300AC2309 /* SignInViewController.swift */,
 				B9FC22A926296FF100AC2309 /* SignUpViewController.swift */,
-				B9FC22AC2629759B00AC2309 /* MoodMenuViewController.swift */,
+				B9E6A9FA262EFF7D00F3B548 /* HomeViewController.swift */,
+				B9E6A9FD262EFF8D00F3B548 /* SpotifyViewController.swift */,
+				B9E6AA00262EFF9800F3B548 /* MoreViewController.swift */,
+				B9E6AA06262F09CE00F3B548 /* MainTabBarController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -288,12 +297,15 @@
 			files = (
 				B91D0138262819E5009EB88B /* Extension.swift in Sources */,
 				B98E2D4B26281120007C2B52 /* AppDelegate.swift in Sources */,
+				B9E6A9FE262EFF8D00F3B548 /* SpotifyViewController.swift in Sources */,
 				B98E2D4D26281120007C2B52 /* SceneDelegate.swift in Sources */,
 				B91D013D26281B44009EB88B /* OnboardingSlide.swift in Sources */,
-				B9FC22AD2629759B00AC2309 /* MoodMenuViewController.swift in Sources */,
 				B9FC22A726296FE300AC2309 /* SignInViewController.swift in Sources */,
+				B9E6A9FB262EFF7D00F3B548 /* HomeViewController.swift in Sources */,
 				B91D014126281FE0009EB88B /* OnboardingCollectionViewCell.swift in Sources */,
 				B9FC22AA26296FF100AC2309 /* SignUpViewController.swift in Sources */,
+				B9E6AA07262F09CE00F3B548 /* MainTabBarController.swift in Sources */,
+				B9E6AA01262EFF9800F3B548 /* MoreViewController.swift in Sources */,
 				B9497609262814D8003341CC /* OnboardingViewController.swift in Sources */,
 				B91D014826285819009EB88B /* WelcomeViewController.swift in Sources */,
 			);

@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Firebase
 
 class OnboardingViewController: UIViewController {
     
@@ -34,6 +35,9 @@ class OnboardingViewController: UIViewController {
             OnboardingSlide(title: "Reading Is The Best Way To Improve Yourself", description: "Reading is one of the best and the cheapest, and even the wisest ways to acquire knowledge, thinking capacities, and even cultures of the world.", image: #imageLiteral(resourceName: "Ilustration-2")),
             OnboardingSlide(title: "Moving Benefits Your Mental Health", description: "Movement is incredibly effective at lifting mood and reducing symptoms of many mental disorders.", image: #imageLiteral(resourceName: "Ilustration-3"))
         ]
+        if Auth.auth().currentUser != nil {
+            self.performSegue(withIdentifier: "LoggedIn", sender: nil)
+        }
     }
     
     @IBAction func nextButtonClicked(_ sender: Any) {

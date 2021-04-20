@@ -1,14 +1,14 @@
 //
-//  MoodMenuViewController.swift
+//  MainTabBarController.swift
 //  Moodout
 //
-//  Created by Rihards Lozins on 16/04/2021.
+//  Created by Rihards Lozins on 20/04/2021.
 //
 
 import UIKit
 import Firebase
 
-class MoodMenuViewController: UIViewController {
+class MainTabBarController: UITabBarController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,8 +17,7 @@ class MoodMenuViewController: UIViewController {
         
     }
     
-    @IBAction func logOutButton(_ sender: Any) {
-        
+    @IBAction func logoOutButton(_ sender: Any) {
         do {
             try Auth.auth().signOut()
             navigationController?.popToRootViewController(animated: true)
