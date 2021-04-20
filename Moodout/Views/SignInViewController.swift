@@ -22,10 +22,14 @@ class SignInViewController: UIViewController {
         if let email = emailTextField.text, let password = passwordTextField.text {
             
             Auth.auth().signIn(withEmail: email, password: password) { authResult, error in
-                if let e = error {
-                    print(e)
-                } else {
+                if error == nil {
                     self.performSegue(withIdentifier: "SignInToApp", sender: self)
+                } else {
+                    let alertController = UIAlertController(title: "Wrong Credentials", message: "Invalid username or password", preferredStyle: .alert)
+                    let defaultAction = UIAlertAction(title: "OK", style: .cancel, handler: nil)
+                    
+                    alertController.addAction(defaultAction)
+                    self.present(alertController, animated: true, completion: nil)
                 }
             }
         }

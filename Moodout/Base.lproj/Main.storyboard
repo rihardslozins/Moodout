@@ -247,13 +247,13 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Sign Up" translatesAutoresizingMaskIntoConstraints="NO" id="87F-0M-2cs">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="62" translatesAutoresizingMaskIntoConstraints="NO" id="zpj-Yi-VPs">
-                                <rect key="frame" x="20" y="337" width="374" height="222"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="62" translatesAutoresizingMaskIntoConstraints="NO" id="Rp4-jD-QdM">
+                                <rect key="frame" x="20" y="268" width="374" height="360"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="SiE-9P-bAA">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="110"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="E7G-bT-rD6">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="248"/>
                                         <subviews>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vMz-hs-T4v">
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="vMz-hs-T4v">
                                                 <rect key="frame" x="0.0" y="0.0" width="374" height="50"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="374" id="igz-Qr-G51"/>
@@ -262,15 +262,37 @@
                                                 <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
                                                 <textInputTraits key="textInputTraits" autocorrectionType="no"/>
                                             </textField>
-                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="49y-A2-9ln">
-                                                <rect key="frame" x="0.0" y="60" width="374" height="50"/>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="49y-A2-9ln">
+                                                <rect key="frame" x="0.0" y="66" width="374" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="eyj-WN-mkx"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="374" id="zZQ-fh-Y4Q"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
+                                                <textInputTraits key="textInputTraits" autocorrectionType="no"/>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Afc-g1-9q8">
+                                                <rect key="frame" x="0.0" y="132" width="374" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="374" id="8nJ-On-mBM"/>
+                                                    <constraint firstAttribute="height" constant="50" id="sh5-h9-GPs"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
+                                                <textInputTraits key="textInputTraits" autocorrectionType="no" secureTextEntry="YES"/>
+                                            </textField>
+                                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Repeat Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UfU-mK-AM8">
+                                                <rect key="frame" x="0.0" y="198" width="374" height="50"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="4HV-h4-Ck9"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="374" id="Bgd-vc-AHo"/>
+                                                </constraints>
                                                 <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
                                                 <textInputTraits key="textInputTraits" autocorrectionType="no" secureTextEntry="YES"/>
                                             </textField>
                                         </subviews>
                                     </stackView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TIm-pT-yK6">
-                                        <rect key="frame" x="112" y="172" width="150" height="50"/>
+                                        <rect key="frame" x="112" y="310" width="150" height="50"/>
                                         <color key="backgroundColor" red="0.1019607843" green="0.1176470588" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="nL4-Mg-cOH"/>
@@ -295,20 +317,20 @@
                         <viewLayoutGuide key="safeArea" id="OIC-8Q-ZMW"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="zpj-Yi-VPs" firstAttribute="centerX" secondItem="zag-nR-z1H" secondAttribute="centerX" id="1I3-F8-t05"/>
                             <constraint firstAttribute="bottom" secondItem="87F-0M-2cs" secondAttribute="bottom" id="D2j-jY-lxq"/>
-                            <constraint firstItem="OIC-8Q-ZMW" firstAttribute="trailing" secondItem="zpj-Yi-VPs" secondAttribute="trailing" constant="20" id="IoZ-tl-Ngj"/>
                             <constraint firstItem="87F-0M-2cs" firstAttribute="trailing" secondItem="OIC-8Q-ZMW" secondAttribute="trailing" id="OYl-Ru-xpM"/>
+                            <constraint firstItem="Rp4-jD-QdM" firstAttribute="centerX" secondItem="zag-nR-z1H" secondAttribute="centerX" id="Tvz-dZ-Jgd"/>
                             <constraint firstItem="87F-0M-2cs" firstAttribute="top" secondItem="zag-nR-z1H" secondAttribute="top" id="ZW0-ja-QIU"/>
                             <constraint firstItem="87F-0M-2cs" firstAttribute="leading" secondItem="OIC-8Q-ZMW" secondAttribute="leading" id="h5x-lf-ZOe"/>
-                            <constraint firstItem="zpj-Yi-VPs" firstAttribute="centerY" secondItem="zag-nR-z1H" secondAttribute="centerY" id="jNP-7F-1dI"/>
-                            <constraint firstItem="zpj-Yi-VPs" firstAttribute="leading" secondItem="OIC-8Q-ZMW" secondAttribute="leading" constant="20" id="viw-yS-XGl"/>
+                            <constraint firstItem="Rp4-jD-QdM" firstAttribute="centerY" secondItem="zag-nR-z1H" secondAttribute="centerY" id="pcS-6r-AiD"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="KLR-VU-PTV"/>
                     <connections>
-                        <outlet property="emailTextField" destination="vMz-hs-T4v" id="8e4-VD-ucS"/>
-                        <outlet property="passwordTextField" destination="49y-A2-9ln" id="Bnx-8A-VpP"/>
+                        <outlet property="emailTextField" destination="49y-A2-9ln" id="ied-kg-Gqi"/>
+                        <outlet property="nameTextField" destination="vMz-hs-T4v" id="Bw6-x4-Bq8"/>
+                        <outlet property="passwordTextfield" destination="Afc-g1-9q8" id="whb-DD-edX"/>
+                        <outlet property="repeatPasswordTextField" destination="UfU-mK-AM8" id="3zl-Bl-eqg"/>
                         <segue destination="rqq-cq-vmn" kind="show" identifier="SignUpToApp" id="9UI-Km-6R6"/>
                     </connections>
                 </viewController>
@@ -336,7 +358,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1eM-l8-yYx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3983" y="214"/>
+            <point key="canvasLocation" x="4045" y="139"/>
         </scene>
         <!--Sign In View Controller-->
         <scene sceneID="8sR-QX-1Ep">
