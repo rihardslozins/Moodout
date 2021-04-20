@@ -69,5 +69,7 @@
 		<string>Roboto-Regular</string>
 		<string>Roboto-Thin</string>
 	</array>
+	<key>UIUserInterfaceStyle</key>
+	<string>Light</string>
 </dict>
 </plist>
