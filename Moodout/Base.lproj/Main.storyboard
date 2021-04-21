@@ -47,10 +47,10 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ill-C4-cdW">
-                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="457.5"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="441.5"/>
                                                 </imageView>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="mRp-tH-g0v">
-                                                    <rect key="frame" x="16" y="457.5" width="382" height="126.5"/>
+                                                    <rect key="frame" x="16" y="441.5" width="382" height="142.5"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="An App For Your Mood At Your Fingertips" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yhL-4v-oav">
                                                             <rect key="frame" x="0.0" y="0.0" width="382" height="61"/>
@@ -59,7 +59,7 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KWb-o0-OQH">
-                                                            <rect key="frame" x="0.0" y="77" width="382" height="49.5"/>
+                                                            <rect key="frame" x="0.0" y="77" width="382" height="65.5"/>
                                                             <string key="text">Meditation is a mind and body practice that has a long history of use for increasing calmness and physical relaxation, improving psychological balance, coping with illness.</string>
                                                             <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
                                                             <color key="textColor" systemColor="systemGrayColor"/>
@@ -432,7 +432,6 @@
         <!--Home-->
         <scene sceneID="EEI-4O-IfL">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="oPz-X4-8fc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="Yd6-cZ-DX8" customClass="HomeViewController" customModule="Moodout" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="aLz-jQ-PgI">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -445,13 +444,13 @@
                     </tabBarItem>
                     <navigationItem key="navigationItem" id="LHp-N5-qMI"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oPz-X4-8fc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4196" y="907"/>
+            <point key="canvasLocation" x="4195.652173913044" y="906.69642857142856"/>
         </scene>
         <!--Spotify-->
         <scene sceneID="A6w-Pt-TAF">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="B3C-ZH-SeM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="azH-MS-VJy" customClass="SpotifyViewController" customModule="Moodout" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JtZ-NP-rpb">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -461,13 +460,13 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Spotify" image="Spotify_Icon" id="ctF-bp-T3a"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="B3C-ZH-SeM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="4983" y="907"/>
         </scene>
         <!--More-->
         <scene sceneID="pOq-pb-fQT">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="tYP-Qi-eBg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="01h-wQ-RJw" customClass="MoreViewController" customModule="Moodout" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eUt-Mh-z4A">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -477,6 +476,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="More" image="More-Icon" id="ipK-dg-O8Y"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tYP-Qi-eBg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5757" y="907"/>
         </scene>
@@ -501,7 +501,6 @@
         <!--Main Tab Bar Controller-->
         <scene sceneID="c25-eZ-nJg">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="U81-gk-biW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Tzh-SP-2GY" customClass="MainTabBarController" customModule="Moodout" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="vw2-2q-suf">
@@ -512,18 +511,180 @@
                         </barButtonItem>
                     </navigationItem>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="g4k-rV-WlN">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="selectedImageTintColor" red="0.1019607843" green="0.1176470588" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="selectedImageTintColor" red="0.96470588235294119" green="0.70588235294117641" blue="0.44705882352941173" alpha="1" colorSpace="calibratedRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="Yd6-cZ-DX8" kind="relationship" relationship="viewControllers" id="6KE-9i-bMP"/>
                         <segue destination="azH-MS-VJy" kind="relationship" relationship="viewControllers" id="3D8-Al-QIl"/>
-                        <segue destination="01h-wQ-RJw" kind="relationship" relationship="viewControllers" id="U4y-pz-EZc"/>
+                        <segue destination="cWE-Qr-GpG" kind="relationship" relationship="viewControllers" id="hcq-EL-OwQ"/>
+                        <segue destination="01h-wQ-RJw" kind="relationship" relationship="viewControllers" id="xvH-yG-nh6"/>
                     </connections>
                 </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="U81-gk-biW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3510" y="133"/>
+        </scene>
+        <!--Assistance-->
+        <scene sceneID="a2s-So-eup">
+            <objects>
+                <tableViewController id="yV2-gt-nXS" customClass="AssistancePlaceTableViewController" customModule="Moodout" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="tGz-6d-12D">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="assistanceTableViewCell" textLabel="fAQ-Ry-cBe" detailTextLabel="VuN-AT-kxI" style="IBUITableViewCellStyleSubtitle" id="jTG-Lp-Fhx">
+                                <rect key="frame" x="0.0" y="28" width="414" height="66.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="jTG-Lp-Fhx" id="Y9X-hN-jfb">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="66.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fAQ-Ry-cBe">
+                                            <rect key="frame" x="20" y="9.5" width="40" height="23.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="20"/>
+                                            <color key="textColor" red="0.10196078431372549" green="0.11764705882352941" blue="0.17254901960784313" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Detail" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="VuN-AT-kxI">
+                                            <rect key="frame" x="20" y="35.5" width="41" height="19"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
+                                            <color key="textColor" systemColor="systemGrayColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="bOX-p1-h8Z" kind="show" id="xRw-9D-elf"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="yV2-gt-nXS" id="pXC-Gh-7kz"/>
+                            <outlet property="delegate" destination="yV2-gt-nXS" id="kSv-g7-x5c"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Assistance" largeTitleDisplayMode="always" id="aQY-TA-Tt1">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="DJ0-Gs-rs9"/>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hHu-dT-fMh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5757" y="133"/>
+        </scene>
+        <!--Assistance Detail View Controller-->
+        <scene sceneID="0gW-OH-xZO">
+            <objects>
+                <viewController id="bOX-p1-h8Z" customClass="AssistanceDetailViewController" customModule="Moodout" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6Ci-r9-syW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="42" translatesAutoresizingMaskIntoConstraints="NO" id="7TT-rO-aZJ">
+                                <rect key="frame" x="20" y="219.5" width="374" height="457.5"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Shapes_1" translatesAutoresizingMaskIntoConstraints="NO" id="P88-R9-VdY">
+                                        <rect key="frame" x="54" y="0.0" width="266.5" height="200"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="8"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="RJq-1u-8Zt">
+                                        <rect key="frame" x="0.0" y="242" width="374" height="215.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dmr-lo-QpL">
+                                                <rect key="frame" x="0.0" y="0.0" width="374" height="28.5"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="374" id="7W0-tx-rec"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="24"/>
+                                                <color key="textColor" red="0.10196078431372549" green="0.11764705882352941" blue="0.17254901960784313" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Phone_png" translatesAutoresizingMaskIntoConstraints="NO" id="4zV-tp-DgS">
+                                                <rect key="frame" x="167" y="44.5" width="40" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="40" id="bsd-Co-j12"/>
+                                                    <constraint firstAttribute="height" constant="40" id="f3V-2v-JOa"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e4x-4b-ugI">
+                                                <rect key="frame" x="0.0" y="100.5" width="374" height="21.5"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="374" id="m4V-rr-4im"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="18"/>
+                                                <color key="textColor" red="0.10196078431372549" green="0.11764705882352941" blue="0.17254901960784313" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clock" translatesAutoresizingMaskIntoConstraints="NO" id="J8F-y8-QZr">
+                                                <rect key="frame" x="167" y="138" width="40" height="40"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="40" id="AFj-zR-bMO"/>
+                                                    <constraint firstAttribute="height" constant="40" id="DNW-Fj-Vap"/>
+                                                </constraints>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EBt-Uh-LYd">
+                                                <rect key="frame" x="0.0" y="194" width="374" height="21.5"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="374" id="kRM-tc-ACC"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="18"/>
+                                                <color key="textColor" red="0.1019607843" green="0.1176470588" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="R9r-KD-ODb"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="7TT-rO-aZJ" firstAttribute="centerX" secondItem="6Ci-r9-syW" secondAttribute="centerX" id="Md8-50-oRg"/>
+                            <constraint firstItem="7TT-rO-aZJ" firstAttribute="centerY" secondItem="6Ci-r9-syW" secondAttribute="centerY" id="zA3-Qj-NzT"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="f6A-hJ-ZEL"/>
+                    <connections>
+                        <outlet property="centreHoursLabel" destination="EBt-Uh-LYd" id="jox-q4-4hB"/>
+                        <outlet property="centreImageView" destination="P88-R9-VdY" id="m4M-cu-Pm4"/>
+                        <outlet property="centreNameLabel" destination="Dmr-lo-QpL" id="paI-Y1-gCx"/>
+                        <outlet property="centrePhoneLabel" destination="e4x-4b-ugI" id="8vt-g2-dWk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eO7-Ut-qIl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6560.8695652173919" y="132.58928571428572"/>
+        </scene>
+        <!--Assistance-->
+        <scene sceneID="qRu-nm-Tee">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cWE-Qr-GpG" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Assistance" image="Call_Icon" id="PvE-xT-g38"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="h1r-8m-ERe">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="0.10196078431372549" green="0.11764705882352941" blue="0.17254901960784313" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="yV2-gt-nXS" kind="relationship" relationship="rootViewController" id="aji-e3-wKU"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CzN-8i-4DD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4983" y="133"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
@@ -531,13 +692,17 @@
     </inferredMetricsTieBreakers>
     <color key="tintColor" red="0.1019607843" green="0.1176470588" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
     <resources>
+        <image name="Call_Icon" width="25" height="25"/>
         <image name="Home_Icon" width="25" height="25"/>
         <image name="Log_Out" width="25" height="25"/>
         <image name="More-Icon" width="25" height="25"/>
+        <image name="Phone_png" width="100" height="100"/>
+        <image name="Shapes_1" width="266.5" height="200"/>
         <image name="Sign In" width="414" height="736"/>
         <image name="Sign Up" width="375" height="812"/>
         <image name="Spotify_Icon" width="25" height="25"/>
         <image name="Welcome" width="375" height="812"/>
+        <image name="clock" width="100" height="100"/>
         <namedColor name="AccentColor">
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

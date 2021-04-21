@@ -11,6 +11,10 @@
 		B91D013D26281B44009EB88B /* OnboardingSlide.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91D013C26281B44009EB88B /* OnboardingSlide.swift */; };
 		B91D014126281FE0009EB88B /* OnboardingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91D014026281FE0009EB88B /* OnboardingCollectionViewCell.swift */; };
 		B91D014826285819009EB88B /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91D014726285819009EB88B /* WelcomeViewController.swift */; };
+		B927D3D6263024BD007601B2 /* AssistanceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B927D3D5263024BD007601B2 /* AssistanceData.swift */; };
+		B927D3DA26302B15007601B2 /* AssistancePlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = B927D3D926302B15007601B2 /* AssistancePlace.swift */; };
+		B927D3DD2630329E007601B2 /* AssistanceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B927D3DC2630329E007601B2 /* AssistanceDetailViewController.swift */; };
+		B927D3E0263034BE007601B2 /* AssistancePlaceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B927D3DF263034BE007601B2 /* AssistancePlaceTableViewController.swift */; };
 		B9497609262814D8003341CC /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9497608262814D8003341CC /* OnboardingViewController.swift */; };
 		B98E2D4B26281120007C2B52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98E2D4A26281120007C2B52 /* AppDelegate.swift */; };
 		B98E2D4D26281120007C2B52 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98E2D4C26281120007C2B52 /* SceneDelegate.swift */; };
@@ -37,6 +41,10 @@
 		B91D013C26281B44009EB88B /* OnboardingSlide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingSlide.swift; sourceTree = "<group>"; };
 		B91D014026281FE0009EB88B /* OnboardingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingCollectionViewCell.swift; sourceTree = "<group>"; };
 		B91D014726285819009EB88B /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		B927D3D5263024BD007601B2 /* AssistanceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistanceData.swift; sourceTree = "<group>"; };
+		B927D3D926302B15007601B2 /* AssistancePlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistancePlace.swift; sourceTree = "<group>"; };
+		B927D3DC2630329E007601B2 /* AssistanceDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistanceDetailViewController.swift; sourceTree = "<group>"; };
+		B927D3DF263034BE007601B2 /* AssistancePlaceTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistancePlaceTableViewController.swift; sourceTree = "<group>"; };
 		B9497608262814D8003341CC /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		B98E2D4726281120007C2B52 /* Moodout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moodout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B98E2D4A26281120007C2B52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -110,11 +118,13 @@
 			isa = PBXGroup;
 			children = (
 				B91D013C26281B44009EB88B /* OnboardingSlide.swift */,
+				B927D3D5263024BD007601B2 /* AssistanceData.swift */,
+				B927D3D926302B15007601B2 /* AssistancePlace.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
 		};
-		B949760526281458003341CC /* Views */ = {
+		B949760526281458003341CC /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				B9497608262814D8003341CC /* OnboardingViewController.swift */,
@@ -126,8 +136,10 @@
 				B9E6A9FD262EFF8D00F3B548 /* SpotifyViewController.swift */,
 				B9E6AA00262EFF9800F3B548 /* MoreViewController.swift */,
 				B9E6AA06262F09CE00F3B548 /* MainTabBarController.swift */,
+				B927D3DC2630329E007601B2 /* AssistanceDetailViewController.swift */,
+				B927D3DF263034BE007601B2 /* AssistancePlaceTableViewController.swift */,
 			);
-			path = Views;
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 		B98E2D3E26281120007C2B52 = {
@@ -151,7 +163,7 @@
 		B98E2D4926281120007C2B52 /* Moodout */ = {
 			isa = PBXGroup;
 			children = (
-				B949760526281458003341CC /* Views */,
+				B949760526281458003341CC /* Controllers */,
 				B91D013A262819EB009EB88B /* Extension */,
 				B949760426281451003341CC /* Models */,
 				B91D01442628385B009EB88B /* Delegate */,
@@ -295,11 +307,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B927D3DA26302B15007601B2 /* AssistancePlace.swift in Sources */,
 				B91D0138262819E5009EB88B /* Extension.swift in Sources */,
 				B98E2D4B26281120007C2B52 /* AppDelegate.swift in Sources */,
 				B9E6A9FE262EFF8D00F3B548 /* SpotifyViewController.swift in Sources */,
 				B98E2D4D26281120007C2B52 /* SceneDelegate.swift in Sources */,
 				B91D013D26281B44009EB88B /* OnboardingSlide.swift in Sources */,
+				B927D3E0263034BE007601B2 /* AssistancePlaceTableViewController.swift in Sources */,
 				B9FC22A726296FE300AC2309 /* SignInViewController.swift in Sources */,
 				B9E6A9FB262EFF7D00F3B548 /* HomeViewController.swift in Sources */,
 				B91D014126281FE0009EB88B /* OnboardingCollectionViewCell.swift in Sources */,
@@ -308,6 +322,8 @@
 				B9E6AA01262EFF9800F3B548 /* MoreViewController.swift in Sources */,
 				B9497609262814D8003341CC /* OnboardingViewController.swift in Sources */,
 				B91D014826285819009EB88B /* WelcomeViewController.swift in Sources */,
+				B927D3D6263024BD007601B2 /* AssistanceData.swift in Sources */,
+				B927D3DD2630329E007601B2 /* AssistanceDetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
