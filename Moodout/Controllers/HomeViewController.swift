@@ -20,8 +20,8 @@ class HomeViewController: UIViewController {
         formatter.timeZone = .current
         formatter.locale = .current
         formatter.dateStyle = .medium
-        
         dateLabel.text = formatter.string(from: date)
         
     }
 }
+
