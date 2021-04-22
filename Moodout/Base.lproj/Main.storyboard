@@ -449,7 +449,7 @@
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="uOd-YQ-n9i">
                                                         <rect key="frame" x="0.0" y="0.0" width="380" height="216"/>
                                                         <subviews>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="22 April" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jMw-hY-pPG">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jMw-hY-pPG">
                                                                 <rect key="frame" x="0.0" y="0.0" width="380" height="40"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="40" id="EYU-eq-Sd4"/>
@@ -603,6 +603,9 @@
                         <color key="badgeColor" name="AccentColor"/>
                     </tabBarItem>
                     <navigationItem key="navigationItem" id="LHp-N5-qMI"/>
+                    <connections>
+                        <outlet property="dateLabel" destination="jMw-hY-pPG" id="iDv-Y2-o9U"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oPz-X4-8fc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
