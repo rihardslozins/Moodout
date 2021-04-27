@@ -27,7 +27,6 @@ class MusicDetailViewController: UIViewController {
             songNameLabel.text = musicPlayer.songName
             artistNameLabel.text = musicPlayer.artistName
             albumCoverIamge.image = UIImage(named: musicPlayer.imageName)
-            
             playSong()
         }
     }
