@@ -5,5 +5,8 @@ target 'Moodout' do
 
   # Pods for Moodout
   pod 'Firebase/Auth'
+  pod 'Firebase/Firestore'
+  pod 'Firebase/Storage'
+  pod 'Firebase/Database'
 
 end
