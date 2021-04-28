@@ -1,17 +1,15 @@
 {
   "images" : [
     {
-      "filename" : "Sigur.png",
+      "filename" : "mogwai_image.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Sigur@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Sigur@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

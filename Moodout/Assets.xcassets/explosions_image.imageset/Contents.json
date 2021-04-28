@@ -1,17 +1,15 @@
 {
   "images" : [
     {
-      "filename" : "Mogwai.png",
+      "filename" : "explosions_image.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Mogwai@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Mogwai@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

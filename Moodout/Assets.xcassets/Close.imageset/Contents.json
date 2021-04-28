@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "Explosions In The Sky.png",
+      "filename" : "Close.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Explosions In The Sky@2x.png",
+      "filename" : "Close-1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Explosions In The Sky@3x.png",
+      "filename" : "Close-2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
