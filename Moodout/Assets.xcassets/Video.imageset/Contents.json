@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "More-Icon.svg",
+      "filename" : "Video.svg",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "More-Icon-1.svg",
+      "filename" : "Video-1.svg",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "More-Icon-2.svg",
+      "filename" : "Video-2.svg",
       "idiom" : "universal",
       "scale" : "3x"
     }

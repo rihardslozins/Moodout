@@ -20,6 +20,8 @@
 		B947B08126396C910087C598 /* Colors_In_Space.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B947B07F26396C910087C598 /* Colors_In_Space.mp3 */; };
 		B947B084263972420087C598 /* MusicPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B947B083263972420087C598 /* MusicPlayerViewController.swift */; };
 		B9497609262814D8003341CC /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9497608262814D8003341CC /* OnboardingViewController.swift */; };
+		B963F3E8263AA7D2005D575F /* VideoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B963F3E7263AA7D2005D575F /* VideoData.swift */; };
+		B963F3EF263AAA5A005D575F /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B963F3EE263AAA5A005D575F /* VideoViewController.swift */; };
 		B98E2D4B26281120007C2B52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98E2D4A26281120007C2B52 /* AppDelegate.swift */; };
 		B98E2D4D26281120007C2B52 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98E2D4C26281120007C2B52 /* SceneDelegate.swift */; };
 		B98E2D5226281120007C2B52 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B98E2D5026281120007C2B52 /* Main.storyboard */; };
@@ -53,6 +55,8 @@
 		B947B07F26396C910087C598 /* Colors_In_Space.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Colors_In_Space.mp3; sourceTree = "<group>"; };
 		B947B083263972420087C598 /* MusicPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerViewController.swift; sourceTree = "<group>"; };
 		B9497608262814D8003341CC /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		B963F3E7263AA7D2005D575F /* VideoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoData.swift; sourceTree = "<group>"; };
+		B963F3EE263AAA5A005D575F /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
 		B98E2D4726281120007C2B52 /* Moodout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moodout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B98E2D4A26281120007C2B52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B98E2D4C26281120007C2B52 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -134,6 +138,7 @@
 			children = (
 				B9FEE6D826380AB2004882DD /* Onboarding */,
 				B9FEE6D726380A95004882DD /* Assistance */,
+				B963F3EA263AA7DC005D575F /* Video */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -146,8 +151,25 @@
 				B9FEE6D226380807004882DD /* RegisterControllers */,
 				B9FEE6D0263807A1004882DD /* AssistanceControllers */,
 				B9FEE6CF26380773004882DD /* MusicPlayer */,
+				B963F3ED263AAA3A005D575F /* VideoControllers */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B963F3EA263AA7DC005D575F /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				B963F3E7263AA7D2005D575F /* VideoData.swift */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		B963F3ED263AAA3A005D575F /* VideoControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B963F3EE263AAA5A005D575F /* VideoViewController.swift */,
+			);
+			path = VideoControllers;
 			sourceTree = "<group>";
 		};
 		B98E2D3E26281120007C2B52 = {
@@ -388,6 +410,8 @@
 				B98E2D4B26281120007C2B52 /* AppDelegate.swift in Sources */,
 				B98E2D4D26281120007C2B52 /* SceneDelegate.swift in Sources */,
 				B91D013D26281B44009EB88B /* OnboardingSlide.swift in Sources */,
+				B963F3EF263AAA5A005D575F /* VideoViewController.swift in Sources */,
+				B963F3E8263AA7D2005D575F /* VideoData.swift in Sources */,
 				B927D3E0263034BE007601B2 /* AssistancePlaceTableViewController.swift in Sources */,
 				B947B084263972420087C598 /* MusicPlayerViewController.swift in Sources */,
 				B9FC22A726296FE300AC2309 /* SignInViewController.swift in Sources */,

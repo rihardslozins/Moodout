@@ -469,7 +469,7 @@
                                                                 <color key="textColor" red="0.1019607843" green="0.1176470588" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Collections" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EId-Jt-UKT">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Video Collection" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EId-Jt-UKT">
                                                                 <rect key="frame" x="0.0" y="170" width="380" height="40"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="40" id="4GR-P3-fYx"/>
@@ -627,6 +627,7 @@
                         <segue destination="Yd6-cZ-DX8" kind="relationship" relationship="viewControllers" id="6KE-9i-bMP"/>
                         <segue destination="cWE-Qr-GpG" kind="relationship" relationship="viewControllers" id="hcq-EL-OwQ"/>
                         <segue destination="uk2-e1-z6R" kind="relationship" relationship="viewControllers" id="Vak-Hi-gbZ"/>
+                        <segue destination="MC5-5w-R3u" kind="relationship" relationship="viewControllers" id="3e5-P5-7mw"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="U81-gk-biW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -682,6 +683,67 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hHu-dT-fMh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5662" y="133"/>
+        </scene>
+        <!--Video-->
+        <scene sceneID="hci-Yv-Ogn">
+            <objects>
+                <viewController id="bN1-Q0-Xj9" customClass="VideoViewController" customModule="Moodout" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="R7h-ju-Vm0">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="uDp-38-vfI">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="videoCell" textLabel="J8F-WN-ya8" detailTextLabel="I2u-Tq-i62" style="IBUITableViewCellStyleSubtitle" id="MgR-Gp-ycg">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="55.5"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="MgR-Gp-ycg" id="o3Y-aM-60t">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="55.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="J8F-WN-ya8">
+                                                    <rect key="frame" x="20" y="10" width="32" height="20"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="I2u-Tq-i62">
+                                                    <rect key="frame" x="20" y="31" width="44" height="14.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="bN1-Q0-Xj9" id="Yt4-tn-wXC"/>
+                                    <outlet property="delegate" destination="bN1-Q0-Xj9" id="cNE-Nr-7GM"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="V18-nu-8hy"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="uDp-38-vfI" firstAttribute="top" secondItem="V18-nu-8hy" secondAttribute="top" id="LNH-Kc-Wgi"/>
+                            <constraint firstItem="V18-nu-8hy" firstAttribute="bottom" secondItem="uDp-38-vfI" secondAttribute="bottom" id="N46-O0-Dxk"/>
+                            <constraint firstItem="V18-nu-8hy" firstAttribute="trailing" secondItem="uDp-38-vfI" secondAttribute="trailing" id="RRf-q1-VsI"/>
+                            <constraint firstItem="uDp-38-vfI" firstAttribute="leading" secondItem="V18-nu-8hy" secondAttribute="leading" id="lRn-T5-E1H"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Video" id="gCf-7Q-22A"/>
+                    <connections>
+                        <outlet property="Table" destination="uDp-38-vfI" id="4G0-Y8-bem"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZOt-9T-J0S" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6542" y="907"/>
         </scene>
         <!--Assistance Detail View Controller-->
         <scene sceneID="0gW-OH-xZO">
@@ -847,7 +909,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XuM-JZ-aoN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5660.8695652173919" y="914.73214285714278"/>
+            <point key="canvasLocation" x="5661" y="1683"/>
         </scene>
         <!--Music Player View Controller-->
         <scene sceneID="K98-Nd-Ewb">
@@ -975,7 +1037,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zBS-sF-pAE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6542" y="915"/>
+            <point key="canvasLocation" x="6542" y="1683"/>
         </scene>
         <!--Music-->
         <scene sceneID="E3j-GJ-E2w">
@@ -997,7 +1059,26 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3jP-R6-hcm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4770" y="915"/>
+            <point key="canvasLocation" x="4770" y="1683"/>
+        </scene>
+        <!--Video-->
+        <scene sceneID="A32-BV-tG7">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="MC5-5w-R3u" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Video" image="Video" id="teT-qr-LIG"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="p4b-xh-JnF">
+                        <rect key="frame" x="0.0" y="44" width="414" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="bN1-Q0-Xj9" kind="relationship" relationship="rootViewController" id="foQ-eL-znO"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3QE-1u-Jlo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5661" y="907"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
@@ -1023,6 +1104,7 @@
         <image name="Shapes_1" width="266.5" height="200"/>
         <image name="Sign In" width="375" height="812"/>
         <image name="Sign Up" width="375" height="812"/>
+        <image name="Video" width="25" height="25"/>
         <image name="Welcome" width="375" height="812"/>
         <image name="clock" width="100" height="100"/>
         <namedColor name="AccentColor">
