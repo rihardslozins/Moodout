@@ -15,9 +15,10 @@
 		B927D3DA26302B15007601B2 /* AssistancePlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = B927D3D926302B15007601B2 /* AssistancePlace.swift */; };
 		B927D3DD2630329E007601B2 /* AssistanceDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B927D3DC2630329E007601B2 /* AssistanceDetailViewController.swift */; };
 		B927D3E0263034BE007601B2 /* AssistancePlaceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B927D3DF263034BE007601B2 /* AssistancePlaceTableViewController.swift */; };
+		B94582CD263C10580013DADE /* Broadside_Coffee_Talk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B94582CA263C10560013DADE /* Broadside_Coffee_Talk.mp3 */; };
+		B94582CE263C10580013DADE /* ROAM_Alive.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B94582CB263C10570013DADE /* ROAM_Alive.mp3 */; };
+		B94582CF263C10580013DADE /* The_Starting_Line_Up_Go.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B94582CC263C10580013DADE /* The_Starting_Line_Up_Go.mp3 */; };
 		B947B07926394F3E0087C598 /* MainMusicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B947B07826394F3E0087C598 /* MainMusicViewController.swift */; };
-		B947B08026396C910087C598 /* Dry_Fantasy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B947B07E26396C910087C598 /* Dry_Fantasy.mp3 */; };
-		B947B08126396C910087C598 /* Colors_In_Space.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B947B07F26396C910087C598 /* Colors_In_Space.mp3 */; };
 		B947B084263972420087C598 /* MusicPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B947B083263972420087C598 /* MusicPlayerViewController.swift */; };
 		B9497609262814D8003341CC /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9497608262814D8003341CC /* OnboardingViewController.swift */; };
 		B963F3E8263AA7D2005D575F /* VideoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B963F3E7263AA7D2005D575F /* VideoData.swift */; };
@@ -36,7 +37,6 @@
 		B9F4CBAA2629690800A7AECF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B9F4CBA92629690800A7AECF /* GoogleService-Info.plist */; };
 		B9FC22A726296FE300AC2309 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FC22A626296FE300AC2309 /* SignInViewController.swift */; };
 		B9FC22AA26296FF100AC2309 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FC22A926296FF100AC2309 /* SignUpViewController.swift */; };
-		B9FEE6C1263802BF004882DD /* Blapradur.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B9FEE6BD263802BF004882DD /* Blapradur.mp3 */; };
 		DB22B31EBE5F8F3C9104B15F /* Pods_Moodout.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FE3F5DADBE538BEF5E8823E /* Pods_Moodout.framework */; };
 /* End PBXBuildFile section */
 
@@ -50,9 +50,10 @@
 		B927D3D926302B15007601B2 /* AssistancePlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistancePlace.swift; sourceTree = "<group>"; };
 		B927D3DC2630329E007601B2 /* AssistanceDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistanceDetailViewController.swift; sourceTree = "<group>"; };
 		B927D3DF263034BE007601B2 /* AssistancePlaceTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssistancePlaceTableViewController.swift; sourceTree = "<group>"; };
+		B94582CA263C10560013DADE /* Broadside_Coffee_Talk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Broadside_Coffee_Talk.mp3; sourceTree = "<group>"; };
+		B94582CB263C10570013DADE /* ROAM_Alive.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ROAM_Alive.mp3; sourceTree = "<group>"; };
+		B94582CC263C10580013DADE /* The_Starting_Line_Up_Go.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = The_Starting_Line_Up_Go.mp3; sourceTree = "<group>"; };
 		B947B07826394F3E0087C598 /* MainMusicViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMusicViewController.swift; sourceTree = "<group>"; };
-		B947B07E26396C910087C598 /* Dry_Fantasy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Dry_Fantasy.mp3; sourceTree = "<group>"; };
-		B947B07F26396C910087C598 /* Colors_In_Space.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Colors_In_Space.mp3; sourceTree = "<group>"; };
 		B947B083263972420087C598 /* MusicPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerViewController.swift; sourceTree = "<group>"; };
 		B9497608262814D8003341CC /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 		B963F3E7263AA7D2005D575F /* VideoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoData.swift; sourceTree = "<group>"; };
@@ -73,7 +74,6 @@
 		B9F4CBA92629690800A7AECF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B9FC22A626296FE300AC2309 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		B9FC22A926296FF100AC2309 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
-		B9FEE6BD263802BF004882DD /* Blapradur.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Blapradur.mp3; sourceTree = "<group>"; };
 		DC24887DA91672C1A753DFB1 /* Pods-Moodout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moodout.debug.xcconfig"; path = "Target Support Files/Pods-Moodout/Pods-Moodout.debug.xcconfig"; sourceTree = "<group>"; };
 		FF7BA42981701F225BB9724B /* Pods-Moodout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moodout.release.xcconfig"; path = "Target Support Files/Pods-Moodout/Pods-Moodout.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -222,9 +222,9 @@
 		B9FEE6B926380297004882DD /* Music */ = {
 			isa = PBXGroup;
 			children = (
-				B9FEE6BD263802BF004882DD /* Blapradur.mp3 */,
-				B947B07F26396C910087C598 /* Colors_In_Space.mp3 */,
-				B947B07E26396C910087C598 /* Dry_Fantasy.mp3 */,
+				B94582CA263C10560013DADE /* Broadside_Coffee_Talk.mp3 */,
+				B94582CB263C10570013DADE /* ROAM_Alive.mp3 */,
+				B94582CC263C10580013DADE /* The_Starting_Line_Up_Go.mp3 */,
 			);
 			path = Music;
 			sourceTree = "<group>";
@@ -344,15 +344,15 @@
 			files = (
 				B98E2D64262813D2007C2B52 /* Roboto-Medium.ttf in Resources */,
 				B9F4CBAA2629690800A7AECF /* GoogleService-Info.plist in Resources */,
+				B94582CD263C10580013DADE /* Broadside_Coffee_Talk.mp3 in Resources */,
 				B98E2D67262813D2007C2B52 /* Roboto-Regular.ttf in Resources */,
 				B98E2D5726281121007C2B52 /* LaunchScreen.storyboard in Resources */,
 				B98E2D66262813D2007C2B52 /* Roboto-Thin.ttf in Resources */,
 				B98E2D65262813D2007C2B52 /* Roboto-Bold.ttf in Resources */,
+				B94582CE263C10580013DADE /* ROAM_Alive.mp3 in Resources */,
 				B98E2D5426281121007C2B52 /* Assets.xcassets in Resources */,
-				B9FEE6C1263802BF004882DD /* Blapradur.mp3 in Resources */,
+				B94582CF263C10580013DADE /* The_Starting_Line_Up_Go.mp3 in Resources */,
 				B98E2D5226281120007C2B52 /* Main.storyboard in Resources */,
-				B947B08026396C910087C598 /* Dry_Fantasy.mp3 in Resources */,
-				B947B08126396C910087C598 /* Colors_In_Space.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

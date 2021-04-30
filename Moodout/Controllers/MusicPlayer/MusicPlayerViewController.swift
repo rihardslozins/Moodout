@@ -60,7 +60,7 @@ class MusicPlayerViewController: UIViewController {
         
     } // End configure func
     
-    
+
     @IBAction func closeViewButton(_ sender: Any) {
         self.dismiss(animated: true, completion: nil)
     }

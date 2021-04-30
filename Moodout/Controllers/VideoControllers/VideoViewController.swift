@@ -31,8 +31,9 @@ class VideoViewController: UIViewController, UITableViewDelegate, UITableViewDat
                     let Title = CellObject?["Title"]
                     let videoLink = CellObject?["Link"]
                     let videoTime = CellObject?["Time"]
+                    let videoImage = CellObject?["VideoImage"]
                     
-                    let video = Videos(Title: (Title as! String), Link: (videoLink as! String), Time: (videoTime as! String))
+                    let video = Videos(Title: (Title as! String), Link: (videoLink as! String), Time: (videoTime as! String), VideoImage: (videoImage as! String))
                     
                     self.videoStream.append(video)
                     self.Table.reloadData()
@@ -42,6 +43,8 @@ class VideoViewController: UIViewController, UITableViewDelegate, UITableViewDat
         })
         
     }
+    
+    // MARK: - Table view data source
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return videoStream.count
@@ -55,7 +58,31 @@ class VideoViewController: UIViewController, UITableViewDelegate, UITableViewDat
         cell.textLabel?.text = video.Title
         cell.detailTextLabel?.text = video.Time
         
+        cell.imageView?.image = UIImage(named: "Blank_Player")
+        
+        // Loads and Image for cell, from Firebase URL
+        
+        if let videoTableImage = video.VideoImage {
+            let url = URL(string: videoTableImage)
+            URLSession.shared.dataTask(with: url!, completionHandler: { (data, response, error) in
+                if let error = error {
+                    print(error)
+                    return
+                }
+                DispatchQueue.main.async {
+                    cell.imageView?.image = UIImage(data: data!)
+                }
+                
+            }).resume()
+        }
         return cell
+        
+    }
+    
+    // MARK: - Table view Delegate
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 80
         
     }
     

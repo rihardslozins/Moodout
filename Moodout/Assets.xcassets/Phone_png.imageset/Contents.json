@@ -6,12 +6,10 @@
       "scale" : "1x"
     },
     {
-      "filename" : "Phone_png-1.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Phone_png-2.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

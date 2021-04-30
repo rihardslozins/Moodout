@@ -469,7 +469,7 @@
                                                                 <color key="textColor" red="0.1019607843" green="0.1176470588" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Video Collection" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EId-Jt-UKT">
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Reading Collection" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EId-Jt-UKT">
                                                                 <rect key="frame" x="0.0" y="170" width="380" height="40"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="40" id="4GR-P3-fYx"/>
@@ -644,10 +644,10 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="assistanceTableViewCell" textLabel="fAQ-Ry-cBe" detailTextLabel="VuN-AT-kxI" style="IBUITableViewCellStyleSubtitle" id="jTG-Lp-Fhx">
-                                <rect key="frame" x="0.0" y="28" width="414" height="54.5"/>
+                                <rect key="frame" x="0.0" y="28" width="414" height="55.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="jTG-Lp-Fhx" id="Y9X-hN-jfb">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="54.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="55.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fAQ-Ry-cBe">
@@ -684,7 +684,7 @@
             </objects>
             <point key="canvasLocation" x="5662" y="133"/>
         </scene>
-        <!--Video-->
+        <!--Mindfulness-->
         <scene sceneID="hci-Yv-Ogn">
             <objects>
                 <viewController id="bN1-Q0-Xj9" customClass="VideoViewController" customModule="Moodout" customModuleProvider="target" sceneMemberID="viewController">
@@ -693,28 +693,28 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="uDp-38-vfI">
-                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <rect key="frame" x="0.0" y="140" width="414" height="673"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="videoCell" textLabel="J8F-WN-ya8" detailTextLabel="I2u-Tq-i62" style="IBUITableViewCellStyleSubtitle" id="MgR-Gp-ycg">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="55.5"/>
+                                        <rect key="frame" x="0.0" y="28" width="414" height="54.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="MgR-Gp-ycg" id="o3Y-aM-60t">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="55.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="54.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="J8F-WN-ya8">
-                                                    <rect key="frame" x="20" y="10" width="32" height="20"/>
+                                                    <rect key="frame" x="20" y="7" width="32" height="19"/>
                                                     <autoresizingMask key="autoresizingMask"/>
-                                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
-                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="16"/>
+                                                    <color key="textColor" red="0.10196078431372549" green="0.11764705882352941" blue="0.17254901960784313" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Subtitle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="I2u-Tq-i62">
-                                                    <rect key="frame" x="20" y="31" width="44" height="14.5"/>
+                                                    <rect key="frame" x="20" y="29" width="47.5" height="16.5"/>
                                                     <autoresizingMask key="autoresizingMask"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                                    <nil key="textColor"/>
+                                                    <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="14"/>
+                                                    <color key="textColor" systemColor="systemGrayColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
@@ -736,7 +736,7 @@
                             <constraint firstItem="uDp-38-vfI" firstAttribute="leading" secondItem="V18-nu-8hy" secondAttribute="leading" id="lRn-T5-E1H"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Video" id="gCf-7Q-22A"/>
+                    <navigationItem key="navigationItem" title="Mindfulness" id="gCf-7Q-22A"/>
                     <connections>
                         <outlet property="Table" destination="uDp-38-vfI" id="4G0-Y8-bem"/>
                     </connections>
@@ -753,11 +753,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="42" translatesAutoresizingMaskIntoConstraints="NO" id="7TT-rO-aZJ">
-                                <rect key="frame" x="20" y="212.5" width="374" height="471"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="42" translatesAutoresizingMaskIntoConstraints="NO" id="rbF-I6-z8y">
+                                <rect key="frame" x="20" y="182.5" width="374" height="531"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Shapes_1" translatesAutoresizingMaskIntoConstraints="NO" id="P88-R9-VdY">
-                                        <rect key="frame" x="54" y="0.0" width="266.5" height="200"/>
+                                        <rect key="frame" x="57" y="0.0" width="260" height="260"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="260" id="Z8f-sg-O3f"/>
+                                            <constraint firstAttribute="height" constant="260" id="uDG-BK-Z2g"/>
+                                        </constraints>
                                         <userDefinedRuntimeAttributes>
                                             <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
                                                 <real key="value" value="8"/>
@@ -765,7 +769,7 @@
                                         </userDefinedRuntimeAttributes>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="RJq-1u-8Zt">
-                                        <rect key="frame" x="0.0" y="242" width="374" height="229"/>
+                                        <rect key="frame" x="0.0" y="302" width="374" height="229"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dmr-lo-QpL">
                                                 <rect key="frame" x="0.0" y="0.0" width="374" height="33"/>
@@ -816,8 +820,8 @@
                         <viewLayoutGuide key="safeArea" id="R9r-KD-ODb"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="7TT-rO-aZJ" firstAttribute="centerX" secondItem="6Ci-r9-syW" secondAttribute="centerX" id="Md8-50-oRg"/>
-                            <constraint firstItem="7TT-rO-aZJ" firstAttribute="centerY" secondItem="6Ci-r9-syW" secondAttribute="centerY" id="zA3-Qj-NzT"/>
+                            <constraint firstItem="rbF-I6-z8y" firstAttribute="centerY" secondItem="6Ci-r9-syW" secondAttribute="centerY" id="Em9-17-uBj"/>
+                            <constraint firstItem="rbF-I6-z8y" firstAttribute="centerX" secondItem="6Ci-r9-syW" secondAttribute="centerX" id="PbH-om-meX"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="f6A-hJ-ZEL"/>
@@ -854,7 +858,7 @@
             </objects>
             <point key="canvasLocation" x="4771" y="133"/>
         </scene>
-        <!--My Music-->
+        <!--Mood Media-->
         <scene sceneID="Hwy-Js-tM1">
             <objects>
                 <viewController id="g6J-G8-1gg" customClass="MainMusicViewController" customModule="Moodout" customModuleProvider="target" sceneMemberID="viewController">
@@ -874,9 +878,9 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Y2w-Yb-hfQ">
-                                                    <rect key="frame" x="20" y="7" width="31.5" height="19"/>
+                                                    <rect key="frame" x="20" y="7" width="32" height="19"/>
                                                     <autoresizingMask key="autoresizingMask"/>
-                                                    <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
+                                                    <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="16"/>
                                                     <color key="textColor" red="0.10196078431372549" green="0.11764705882352941" blue="0.17254901960784313" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -902,7 +906,7 @@
                             <constraint firstAttribute="bottom" secondItem="qDb-97-EVf" secondAttribute="bottom" id="v60-lM-uXz"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="My Music" id="yon-1K-ObE"/>
+                    <navigationItem key="navigationItem" title="Mood Media" id="yon-1K-ObE"/>
                     <connections>
                         <outlet property="table" destination="qDb-97-EVf" id="sED-Y8-49k"/>
                     </connections>
@@ -919,7 +923,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="82" translatesAutoresizingMaskIntoConstraints="NO" id="A6q-vp-mkT">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Music_Player" translatesAutoresizingMaskIntoConstraints="NO" id="S06-iE-KAb">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="82" translatesAutoresizingMaskIntoConstraints="NO" id="B3b-Tr-yad">
                                 <rect key="frame" x="77" y="183" width="260" height="530"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="kh6-CO-ba8">
@@ -935,7 +942,7 @@
                                                             <constraint firstAttribute="width" constant="260" id="Mag-iD-PZx"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="28"/>
-                                                        <color key="textColor" red="0.1019607843" green="0.1176470588" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nHm-oX-sAc">
@@ -945,7 +952,7 @@
                                                             <constraint firstAttribute="height" constant="40" id="9Kd-ug-gfA"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="22"/>
-                                                        <color key="textColor" red="0.1019607843" green="0.1176470588" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                 </subviews>
@@ -1019,10 +1026,14 @@
                         <viewLayoutGuide key="safeArea" id="kno-dl-VxJ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="A6q-vp-mkT" firstAttribute="centerX" secondItem="g2x-EC-dd1" secondAttribute="centerX" id="8ya-Nq-GD9"/>
                             <constraint firstItem="kno-dl-VxJ" firstAttribute="trailing" secondItem="RLg-Pl-txv" secondAttribute="trailing" constant="30" id="Lef-8K-e6m"/>
                             <constraint firstItem="RLg-Pl-txv" firstAttribute="top" secondItem="kno-dl-VxJ" secondAttribute="top" constant="30" id="aGG-WZ-JaB"/>
-                            <constraint firstItem="A6q-vp-mkT" firstAttribute="centerY" secondItem="g2x-EC-dd1" secondAttribute="centerY" id="qMx-UT-HBp"/>
+                            <constraint firstAttribute="bottom" secondItem="S06-iE-KAb" secondAttribute="bottom" id="iNq-8u-q3S"/>
+                            <constraint firstItem="S06-iE-KAb" firstAttribute="trailing" secondItem="kno-dl-VxJ" secondAttribute="trailing" id="iPa-wB-6ue"/>
+                            <constraint firstItem="S06-iE-KAb" firstAttribute="top" secondItem="g2x-EC-dd1" secondAttribute="top" id="nep-tK-2uR"/>
+                            <constraint firstItem="S06-iE-KAb" firstAttribute="leading" secondItem="kno-dl-VxJ" secondAttribute="leading" id="tDJ-rU-uSh"/>
+                            <constraint firstItem="B3b-Tr-yad" firstAttribute="centerX" secondItem="g2x-EC-dd1" secondAttribute="centerX" id="vS0-7o-6Jb"/>
+                            <constraint firstItem="B3b-Tr-yad" firstAttribute="centerY" secondItem="g2x-EC-dd1" secondAttribute="centerY" id="wT6-My-Aji"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="chX-3a-KPj"/>
@@ -1037,7 +1048,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zBS-sF-pAE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6542" y="1683"/>
+            <point key="canvasLocation" x="6540.579710144928" y="1682.8125"/>
         </scene>
         <!--Music-->
         <scene sceneID="E3j-GJ-E2w">
@@ -1070,6 +1081,9 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="p4b-xh-JnF">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="0.10196078431372549" green="0.11764705882352941" blue="0.17254901960784313" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -1087,12 +1101,13 @@
     <color key="tintColor" red="0.1019607843" green="0.1176470588" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
     <resources>
         <image name="Call_Icon" width="25" height="25"/>
-        <image name="Close" width="100" height="100"/>
+        <image name="Close" width="200" height="200"/>
         <image name="Home_Icon" width="25" height="25"/>
         <image name="Log_Out" width="25" height="25"/>
         <image name="Music_Icon" width="25" height="25"/>
+        <image name="Music_Player" width="375" height="812"/>
         <image name="Next" width="200" height="200"/>
-        <image name="Phone_png" width="100" height="100"/>
+        <image name="Phone_png" width="200" height="200"/>
         <image name="Play" width="200" height="200"/>
         <image name="Previous" width="200" height="200"/>
         <image name="Read_1" width="153" height="186.5"/>
@@ -1101,12 +1116,12 @@
         <image name="Read_4" width="153" height="186.5"/>
         <image name="Read_5" width="152.5" height="119"/>
         <image name="Read_6" width="153" height="186.5"/>
-        <image name="Shapes_1" width="266.5" height="200"/>
+        <image name="Shapes_1" width="600" height="600"/>
         <image name="Sign In" width="375" height="812"/>
         <image name="Sign Up" width="375" height="812"/>
         <image name="Video" width="25" height="25"/>
         <image name="Welcome" width="375" height="812"/>
-        <image name="clock" width="100" height="100"/>
+        <image name="clock" width="200" height="200"/>
         <namedColor name="AccentColor">
             <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

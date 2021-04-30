@@ -25,23 +25,22 @@ class MainMusicViewController: UIViewController, UITableViewDelegate, UITableVie
     }
     
     func configureSongs() {
-        songs.append(Song(name: "Blapradur",
-                          albumName: "Kveikur",
-                          artistName: "Sigur Rós",
-                          imageName: "sigur_image",
-                          trackName: "Blapradur"))
-        songs.append(Song(name: "Colors In Space",
-                          albumName: "The Wilderness",
-                          artistName: "Explosions In The Sky",
-                          imageName: "explosions_image",
-                          trackName: "Colors_In_Space"))
-        songs.append(Song(name: "Dry Fantasy",
-                          albumName: "As the Love Continues",
-                          artistName: "Mogwai",
-                          imageName: "mogwai_image",
-                          trackName: "Dry_Fantasy"))
+        songs.append(Song(name: "Alive",
+                          artistName: "ROAM",
+                          imageName: "roam_cover",
+                          trackName: "ROAM_Alive"))
+        songs.append(Song(name: "Coffee Talk",
+                          artistName: "Broadside",
+                          imageName: "broadside_cover",
+                          trackName: "Broadside_Coffee_Talk"))
+        songs.append(Song(name: "Up & Go",
+                          artistName: "The Starting Line",
+                          imageName: "starting_line_cover",
+                          trackName: "The_Starting_Line_Up_Go"))
         
     }
+    
+    // MARK: - Table view data source
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         songs.count
@@ -54,12 +53,13 @@ class MainMusicViewController: UIViewController, UITableViewDelegate, UITableVie
         let song = songs[indexPath.row]
         cell.textLabel?.text = song.name
         cell.detailTextLabel?.text = song.artistName
-        cell.accessoryType = .disclosureIndicator
         cell.imageView?.image = UIImage(named: song.imageName)
         
         return cell
         
     }
+    
+    // MARK: - Table view Delegate
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 80
@@ -83,9 +83,10 @@ class MainMusicViewController: UIViewController, UITableViewDelegate, UITableVie
     }
 }
 
+// Struct for Song
+
 struct Song {
     let name: String
-    let albumName: String
     let artistName: String
     let imageName: String
     let trackName: String
